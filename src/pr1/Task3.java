@@ -9,7 +9,7 @@ public class Task3 {
         System.out.println("Введите количество элементов: ");
         int n = scanner.nextInt();
         int[] array = new int[n];
-        int sum = 0;
+        int sum = 0 ;
         for (int i = 0; i < array.length; i++) {
             System.out.print("Введите " + (i + 1) + "-й элемент массива " + ": ");
             array[i] = scanner.nextInt();

@@ -5,7 +5,7 @@ public class Task5 {
         // Цикл для перебора аргументов командной строки
         for (int i = 0; i < args.length; i++) {
             // Выводим номер и значение каждого аргумента
-            System.out.print("Arg " + (i + 1) + ": " + args[i]);
+            System.out.print("Arg " + (i + 1) + ": " + args[i] + " ");
         }
     }
 }

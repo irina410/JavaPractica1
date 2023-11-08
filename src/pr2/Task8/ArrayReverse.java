@@ -22,7 +22,7 @@ public class ArrayReverse {
     }
 
     public static void main(String[] args) {
-        String[] arr = {"Hello", "World", "!", "Good", "Morning"};
+        String[] arr = {"Hello", "World", "Good", "Morning"};
 
         System.out.println("Original array: " + Arrays.toString(arr));
 
